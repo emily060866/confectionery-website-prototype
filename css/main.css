@@ -72,7 +72,7 @@ h1 {
   text-shadow: 2px 2px 5px rgba(0,0,0,.5);
   font-family: 'Lobster', cursive;
   font-size: 3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 ul {
@@ -81,6 +81,7 @@ ul {
 }
 
 h2 {
+  display: inline-block;
   font-family: 'Lobster', cursive;
   font-size: 1.8rem;
 }
