@@ -45,7 +45,7 @@ body {
   justify-content: center;
   width: 100%;
   bottom: 0%;
-  position: absolute
+  position: absolute;
 }
 
 .banner-img {
@@ -422,8 +422,8 @@ dt {
 
   .hour-content h2 {
     margin-top: .5rem;
-
   }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -485,7 +485,7 @@ dt {
   }
 
   .notice-content p {
-    font-size: 1.5rem
+    font-size: 1.5rem;
   }
 
   .noel-profile {
@@ -501,7 +501,6 @@ dt {
   }
 
 }
-
 
 @media only screen and (min-width: 90em) {
 
