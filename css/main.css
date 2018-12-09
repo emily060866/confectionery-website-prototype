@@ -94,6 +94,10 @@ nav li:nth-child(2) {
   background-color: rgba(0, 0, 0, .5);
 }
 
+a {
+  text-decoration: none;
+}
+
 nav a {
   font-weight: bold;
   font-size: 1.2rem;
@@ -230,6 +234,8 @@ dt {
 
 .notice-content p {
   margin: 0;
+  padding: .2rem;
+  font-weight: bold;
 }
 
 .notice-content h3 {
@@ -273,6 +279,16 @@ dt {
   p {
     margin: 0 0 1.3rem;
   }
+
+  .specialities h3 {
+    padding: 0 4rem;
+    margin: 0 1rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -325,6 +341,187 @@ dt {
 
   .wrapper {
     display: flex;
+    margin-bottom: 1.4rem;
+  }
+
+  .maple-cinnamon {
+    background-color: #393939;
+    padding: .5rem;
+    margin: .3rem;
+    width: 33.333%;
+  }
+
+  .mango {
+    background-color: #393939;
+    padding: .5rem;
+    margin: .3rem;
+    width: 33.333%;
+  }
+
+  .snowcone {
+    background-color: #393939;
+    padding: .5rem;
+    margin: .3rem;
+    width: 33.333%;
+  }
+
+  .desert {
+    max-width: 10rem;
+  }
+
+  .specialities h3 {
+    font-size: 1.3rem;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+  }
+
+  .specialities p {
+    padding: .5rem;
+    margin-bottom: 0;
+    color: #fff;
+  }
+
+  .location-information {
+    display: flex;
+    align-items: flex-start;
+    position: static;
+  }
+
+  .location-caption {
+    position: static;
+    background-color: #fff;
+    padding-top: 0;
+  }
+
+  .maps {
+    margin: 0;
+    padding: 0 1rem;
+  }
+
+  .location-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .location-caption h2 {
+    color: #000;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0);
+    margin: 0;
+  }
+
+  dd {
+    margin-right: 6em;
+    margin-left: 2em;
+  }
+
+  .seperator-img {
+    display: none;
+  }
+
+  .hours {
+    display: flex;
+    align-items: center;
+  }
+
+  .notice-content {
+    margin-top: 4rem;
+  }
+
+  .hour-content h2 {
+    margin-top: .5rem;
+
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.5rem;
+  }
+
+  .maps {
+    margin: 0;
+    padding: 0 2rem;
+    padding-right: 1.5rem;
+  }
+
+  .location-caption h2 {
+    font-size: 4rem;
+  }
+
+  .hours {
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+
+  h1 {
+    font-size: 7rem;
+  }
+
+  h2 {
+    font-size: 4rem;
+    margin: .5rem;
+  }
+
+  .notice-content {
+    margin-top: 7rem;
+  }
+
+  .hour-content h2 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  dt {
+    font-size: 1.5rem;
+  }
+
+  dd {
+    font-size: 1.5rem;
+  }
+
+  .notice-content h3 {
+    font-size: 2rem;
+  }
+
+  .notice-content p {
+    font-size: 1.5rem
+  }
+
+  .noel-profile {
+    margin-bottom: 0;
+  }
+
+  .google-maps {
+    font-size: 1rem;
+  }
+
+  .snowcone h3 {
+    margin: .9rem;
+  }
+
+}
+
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  .specialities h3 {
+    font-size: 1.7rem;
+    padding: 1rem;
+    margin: .9rem;
   }
 
 }
